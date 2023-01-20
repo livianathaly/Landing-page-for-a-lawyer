@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Fira+Sans:wght@400;600&family=Lato:wght@400;700&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body{
+ background-color: #fefefe;
+}
+
+section,footer{
+  padding: 54px 0;
+  
+}
+
+
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+header{
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo{
+  font-family: 'Cinzel' , sans-serif;
+  font-size:18px;
+  margin-left: 15px;
+  color: #fefefe;
+}
+
+.logo span{
+  color: #c88c28
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top:35px ;
+  
+}
+
+.escritos-nav{
+  margin: 0 25px;
+  font-size: 14px;
+  color: #fefefe;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+.btn{
+  background-color: transparent;
+  border: 1px solid #fefefe;
+  padding: 15px 15px ;
+  border-radius: 3px;
+  color: #fefefe;
+}
+
+.banner{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+ 
+.banner-text{
+  margin: 130px;
+  text-align: start;
+  margin-left: 15px;
+}
+
+.banner-text> h1{
+  margin-top: -30px;
+  font-size: 32px;
+  font-family:'lato', sans-serif ;
+  color: #fefefe;
+  margin-bottom: 1rem;
+  line-height: 1,2rem;
+  }
+
+  .banner-text h1 span{
+    
+    color: #c88c28;
+  }
+
+  .banner-text p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fefefe;
+    Text-align: justify
+}
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 2rem;
+  gap: 32px;
+}
+
+.botao{
+  color: #fefefe;
+  background-color: transparent;
+  border: 1px solid #fefefe;
+  border-radius: 3px;
+  padding: 7px 14px;
+  font-family: 'Fira Sans', sans-serif;
+  
+}
+
